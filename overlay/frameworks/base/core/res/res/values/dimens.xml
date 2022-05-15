@@ -12,15 +12,13 @@
      limitations under the License.
 -->
 <resources>
-
     <!-- Height of the status bar in portrait. The height should be
          Max((status bar content height + waterfall top size), top cutout size) -->
     <dimen name="status_bar_height">93.0px</dimen>
 
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">106.0px</dimen>
+    <!-- rounded corner content padding -->
+    <dimen name="rounded_corner_content_padding">47.0px</dimen>
 
-    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
-    <dimen name="rounded_corner_radius_adjustment">16px</dimen>
-
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">102.0px</dimen>
 </resources>

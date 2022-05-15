@@ -542,9 +542,9 @@
     </array>
 
     <array name="config_sfps_sensor_props_0" translatable="false">
-        <item>local:4630946736638489729</item>
-        <item>1080</item>
-        <item>965</item>
-        <item>115</item>
+        <item></item>
+        <item></item>
+        <item>930</item> <!--item>sensorLocationY</item-->
+        <item>150</item> <!--item>sensorRadius</item-->
     </array>
 </resources>
