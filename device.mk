@@ -55,9 +55,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.device.rc
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-nad
+PRODUCT_PACKAGES += \
+    FrameworksSpes \
+    SettingsSpes \
+    SystemUISpes
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

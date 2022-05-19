@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SystemUISpes",
+    theme: "SystemUISpes",
+    sdk_version: "current",
+    vendor: true,
+}

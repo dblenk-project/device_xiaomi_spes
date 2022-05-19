@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SettingsSpes",
+    theme: "SettingsSpes",
+    sdk_version: "current",
+    vendor: true,
+}

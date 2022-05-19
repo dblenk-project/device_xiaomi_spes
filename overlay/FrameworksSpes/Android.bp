@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FrameworksSpes",
+    theme: "FrameworksSpes",
+    sdk_version: "current",
+    vendor: true,
+}
