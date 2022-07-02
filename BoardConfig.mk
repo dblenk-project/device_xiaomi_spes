@@ -9,6 +9,10 @@ DEVICE_PATH := device/xiaomi/spes
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# HIDL
+ODM_MANIFEST_SKUS += k7tn
+ODM_MANIFEST_K7TN_FILES := $(DEVICE_PATH)/manifest_k7tn.xml
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_spes
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_spes
