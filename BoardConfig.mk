@@ -9,6 +9,10 @@ DEVICE_PATH := device/xiaomi/spes
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_spes
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_spes
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := spes,spesn
 
