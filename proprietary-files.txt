@@ -523,6 +523,9 @@ vendor/lib64/nfc_nci.st21nfc.st.so
 vendor/firmware/st21nfc_fw.bin
 vendor/firmware/st21nfc_fw7.bin
 
+# Power-off charging daemon
+bin/charger:bin/chargeonlymode
+
 # Sensors
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
