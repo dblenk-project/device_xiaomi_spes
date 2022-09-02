@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from miui_SPESGlobal_V13.0.5.0.RGCMIXM_9a713fb62e_11.0
+# All unpinned blobs below are extracted from miui_SPESGlobal_V13.0.4.0.SGCMIXM_bc890fc589_12.0
 
 # ACDB
 vendor/etc/acdbdata/IDP/bengal-scubaidp-snd-card/IDP_Scuba_Bluetooth_cal.acdb
@@ -167,6 +167,7 @@ vendor/lib64/camera/com.qti.sensormodule.k7t_ofilm_s5kjn1_wide_i.bin
 vendor/lib64/camera/com.qti.sensormodule.k7t_qtech_gc08a3_ultra_ii.bin
 vendor/lib64/camera/com.qti.sensormodule.k7t_qtech_s5k3l6_front_i.bin
 vendor/lib64/camera/com.qti.sensormodule.k7t_sunny_ov02b1b_depth_i.bin
+vendor/lib64/camera/com.qti.sensormodule.k7t_sunny_ov02b1b_depth_iii.bin
 vendor/lib64/camera/com.qti.sensormodule.k7t_truly_ov02b1b_depth_ii.bin
 vendor/lib64/camera/com.qti.tuned.agatti_lce_s5k3p9.bin
 vendor/lib64/camera/com.qti.tuned.agatti_lce_s5k4h7.bin
@@ -215,6 +216,10 @@ vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i.bin
 vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_factory.bin
 vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_global.bin
 vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_i_india.bin
+vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii.bin
+vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_factory.bin
+vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_global.bin
+vendor/lib64/camera/com.qti.tuned.k7t_sunny_ov02b1b_depth_iii_india.bin
 vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii.bin
 vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_factory.bin
 vendor/lib64/camera/com.qti.tuned.k7t_truly_ov02b1b_depth_ii_global.bin
@@ -375,6 +380,9 @@ vendor/etc/camera/126_Fantasy2.png
 vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
 vendor/etc/camera/camxoverridesettings.txt
+vendor/etc/camera/com.xiaomi.dcal.wd.golden
+vendor/etc/camera/com.xiaomi.dcal.wd.golden_2
+vendor/etc/camera/com.xiaomi.dcal.wd.golden_3
 vendor/etc/camera/dof_mecp.bin
 vendor/etc/camera/hdrcheckerparamsettings.yml
 vendor/etc/camera/intsense_config_undistort.bin
@@ -567,13 +575,16 @@ vendor/etc/sensors/config/bengal_sc7a20_0.json
 vendor/etc/sensors/config/bmi26x_0.json
 vendor/etc/sensors/config/bmi26x_0_crt.json
 vendor/etc/sensors/config/bmi26x_0_crt_cfg.json
+vendor/etc/sensors/config/bmi3x0_0.json
 vendor/etc/sensors/config/dynamic_sensors.json
 vendor/etc/sensors/config/ginum_qmc6308_0.json
-vendor/etc/sensors/config/holi_tmd2755_0.json
+vendor/etc/sensors/config/holi_tmd2755_1st.json
+vendor/etc/sensors/config/holi_tmd2755_2nd.json
 vendor/etc/sensors/config/icm4x6x.json
 vendor/etc/sensors/config/kona_hdk_ak991x_0.json
 vendor/etc/sensors/config/kona_mir3da_0.json
 vendor/etc/sensors/config/msmnile_bmi26x_0.json
+vendor/etc/sensors/config/msmnile_bmi3x0_0.json
 vendor/etc/sensors/config/msmnile_icm4x6x.json
 vendor/etc/sensors/config/sc7a20_0.json
 vendor/etc/sensors/config/sns_amd.json

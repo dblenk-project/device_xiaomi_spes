@@ -30,9 +30,9 @@ PRODUCT_MODEL := Redmi Note 11
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="spes-user 11 RKQ1.211001.001 V13.0.5.0.RGCMIXM release-keys"
+    PRIVATE_BUILD_DESC="spes-user 12 SKQ1.211103.001 V13.0.4.0.SGCMIXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/spes_global/spes:11/RKQ1.211001.001/V13.0.5.0.RGCMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/spes_global/spes:12/SKQ1.211103.001/V13.0.4.0.SGCMIXM:user/release-keys
 
 # GMS
 TARGET_GAPPS_ARCH := arm64
