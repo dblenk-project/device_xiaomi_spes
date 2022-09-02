@@ -1,5 +1,13 @@
 on post-fs-data
-    mkdir /data/vendor/nfc 0770 nfc nfc    
+    mkdir /data/vendor/nfc 0770 nfc nfc
+
+on boot
+    mkdir /dev/cpuset/camera-daemon
+    write /dev/cpuset/camera-daemon/cpus 0-7
+    write /dev/cpuset/camera-daemon/mems 0
+    chown cameraserver cameraserver /dev/cpuset/camera-daemon
+    chown cameraserver cameraserver /dev/cpuset/camera-daemon/tasks
+    chmod 0660 /dev/cpuset/camera-daemon/tasks
 	
 service vendor.stflashtool /vendor/bin/STFlashTool
     class late_start
