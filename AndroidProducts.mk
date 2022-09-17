@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_spes.mk
+    $(LOCAL_DIR)/arrow_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_spes-user \
-    nad_spes-userdebug \
-    nad_spes-eng
+    arrow_spes-user \
+    arrow_spes-userdebug \
+    arrow_spes-eng
