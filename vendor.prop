@@ -30,6 +30,12 @@ ro.vendor.audio.us.proximity=true
 ro.vendor.audio.vocal.support=false
 ro.vendor.audio.voice.change.support=true
 
+# Bluetooth
+bluetooth.hardware.power.idle_cur_ma=7
+bluetooth.hardware.power.operating_voltage_mv=3700
+bluetooth.hardware.power.rx_cur_ma=75
+bluetooth.hardware.power.tx_cur_ma=93
+
 # Display
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.late.sf.duration=10500000
